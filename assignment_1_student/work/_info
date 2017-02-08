@@ -1,0 +1,102 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/linux/Documents/verilogClub
+va1_testbench
+Z0 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+Z1 !s110 1486520158
+!i10b 1
+!s100 m`bKR=G:eH3Em0E3]X]0N0
+IlMS2lKaMM9Nl40n;H44j91
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 !s105 a1_testbench_p_sv_unit
+S1
+Z4 d/home/linux/Documents/verilogClub/assignment_1_student
+Z5 w1484350692
+Z6 8/home/linux/Documents/verilogClub/assignment_1_student/a1_testbench_p.sv
+Z7 F/home/linux/Documents/verilogClub/assignment_1_student/a1_testbench_p.sv
+L0 19
+Z8 OV;L;10.4d;61
+r1
+!s85 0
+31
+Z9 !s108 1486520158.000000
+Z10 !s107 /home/linux/Documents/verilogClub/assignment_1_student/a1_testbench_p.sv|
+Z11 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/linux/Documents/verilogClub/assignment_1_student/a1_testbench_p.sv|
+!i113 1
+Z12 o-work work -sv
+vdriver
+R0
+R1
+!i10b 1
+!s100 5]z>f:OAjUj022;cnQc5n0
+IZO_H4B_[PB^DPgU8^:6]e0
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 95
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+vedge_detector
+R0
+!s110 1486520630
+!i10b 1
+!s100 KILhzKKeS:`G9?4:LLfHk3
+IO1NC>RnUEZJ?Ddz9@e0bo2
+R2
+!s105 edge_detector_sv_unit
+S1
+R4
+w1486520188
+8/home/linux/Documents/verilogClub/assignment_1_student/edge_detector.sv
+F/home/linux/Documents/verilogClub/assignment_1_student/edge_detector.sv
+L0 7
+R8
+r1
+!s85 0
+31
+!s108 1486520630.000000
+!s107 /home/linux/Documents/verilogClub/assignment_1_student/edge_detector.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/linux/Documents/verilogClub/assignment_1_student/edge_detector.sv|
+!i113 1
+R12
+vscoreboard
+R0
+R1
+!i10b 1
+!s100 2aa0FNe<XYJnnccm2LWV>1
+IThYIPKZ0Mi19PF;WTO=ET2
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 179
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12

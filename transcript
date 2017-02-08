@@ -1,0 +1,100 @@
+# Project file /home/linux/Documents/verilogClub/assignment_1_student/assignment1.mpf was not found.
+# Unable to open project.
+# Loading project assignment1
+# Compile of a1_testbench_p.sv was successful.
+# Compile of edge_detector.sv was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of a1_testbench_p.sv was successful.
+# Compile of edge_detector.sv failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of edge_detector.sv was successful.
+# Compile of a1_testbench_p.sv was successful.
+# Compile of edge_detector.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.a1_testbench
+# vsim work.a1_testbench 
+# Start time: 19:12:02 on Feb 07,2017
+# Loading sv_std.std
+# Loading work.a1_testbench
+# Loading work.edge_detector
+# Loading work.driver
+# Loading work.scoreboard
+add wave -position end  sim:/a1_testbench/errors
+add wave -position end  sim:/a1_testbench/clk
+add wave -position end  sim:/a1_testbench/resetn
+add wave -position end  sim:/a1_testbench/a
+add wave -position end  sim:/a1_testbench/pos_edge
+add wave -position end  sim:/a1_testbench/neg_edge
+run
+run
+run
+run
+# ------------------------------------------------------------------------
+# Simulation ended with:           0 errors
+# ------------------------------------------------------------------------
+# ** Note: $stop    : /home/linux/Documents/verilogClub/assignment_1_student/a1_testbench_p.sv(166)
+#    Time: 320 ns  Iteration: 1  Instance: /a1_testbench/driver_inst
+# Break in Module driver at /home/linux/Documents/verilogClub/assignment_1_student/a1_testbench_p.sv line 166
+# Compile of edge_detector.sv was successful.
+# Compile of a1_testbench_p.sv was successful.
+# Compile of edge_detector.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Loading work.a1_testbench
+# Loading work.edge_detector
+# Loading work.driver
+# Loading work.scoreboard
+run
+# a1_testbench.scoreboard_inst: Error dut_pos_edge: Expected=0, Got=1, at time=                  40
+# a1_testbench.scoreboard_inst: Error dut_pos_edge: Expected=1, Got=0, at time=                  50
+# a1_testbench.scoreboard_inst: Error dut_pos_edge: Expected=0, Got=1, at time=                  70
+# a1_testbench.scoreboard_inst: Error dut_pos_edge: Expected=1, Got=0, at time=                  80
+run
+# a1_testbench.scoreboard_inst: Error dut_pos_edge: Expected=1, Got=0, at time=                 120
+# a1_testbench.scoreboard_inst: Error dut_pos_edge: Expected=1, Got=0, at time=                 160
+# a1_testbench.scoreboard_inst: Error dut_pos_edge: Expected=1, Got=0, at time=                 200
+run
+# a1_testbench.scoreboard_inst: Error dut_pos_edge: Expected=1, Got=0, at time=                 220
+# a1_testbench.scoreboard_inst: Error dut_pos_edge: Expected=0, Got=1, at time=                 290
+# a1_testbench.scoreboard_inst: Error dut_pos_edge: Expected=0, Got=1, at time=                 300
+# Compile of a1_testbench_p.sv was successful.
+# Compile of edge_detector.sv failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of a1_testbench_p.sv was successful.
+# Compile of edge_detector.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Loading work.a1_testbench
+# Loading work.edge_detector
+# Loading work.driver
+# Loading work.scoreboard
+run
+run
+run
+run
+# ------------------------------------------------------------------------
+# Simulation ended with:           0 errors
+# ------------------------------------------------------------------------
+# ** Note: $stop    : /home/linux/Documents/verilogClub/assignment_1_student/a1_testbench_p.sv(166)
+#    Time: 320 ns  Iteration: 1  Instance: /a1_testbench/driver_inst
+# Break in Module driver at /home/linux/Documents/verilogClub/assignment_1_student/a1_testbench_p.sv line 166
+run
+# Compile of a1_testbench_p.sv was successful.
+# Compile of edge_detector.sv was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Loading work.a1_testbench
+# Loading work.edge_detector
+# Loading work.driver
+# Loading work.scoreboard
+run
+run
+run
+run
+# ------------------------------------------------------------------------
+# Simulation ended with:           0 errors
+# ------------------------------------------------------------------------
+# ** Note: $stop    : /home/linux/Documents/verilogClub/assignment_1_student/a1_testbench_p.sv(166)
+#    Time: 320 ns  Iteration: 1  Instance: /a1_testbench/driver_inst
+# Break in Module driver at /home/linux/Documents/verilogClub/assignment_1_student/a1_testbench_p.sv line 166
+# Compile of edge_detector.sv was successful.

@@ -1,0 +1,10 @@
+/home/linux/Documents/verilogClub/assignment_1_student/a1_testbench_p.sv {1 {vlog -work work -sv -stats=none /home/linux/Documents/verilogClub/assignment_1_student/a1_testbench_p.sv
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module a1_testbench
+-- Compiling module driver
+-- Compiling module scoreboard
+
+Top level modules:
+	a1_testbench
+
+} {} {}}
