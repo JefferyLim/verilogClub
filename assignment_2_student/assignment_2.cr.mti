@@ -1,0 +1,15 @@
+/home/linux/Documents/verilogClub/assignment_2_student/a2_testbench.sv {1 {vlog -work work -sv -stats=none /home/linux/Documents/verilogClub/assignment_2_student/a2_testbench.sv
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module a2_testbench
+-- Compiling module driver
+-- Compiling module scoreboard
+
+Top level modules:
+	a2_testbench
+
+} {} {}} /home/linux/Documents/verilogClub/assignment_2_student/memory_8x32.sv {0 {vlog -work work -sv -stats=none /home/linux/Documents/verilogClub/assignment_2_student/memory_8x32.sv
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module memory_8x32
+** Error: /home/linux/Documents/verilogClub/assignment_2_student/memory_8x32.sv(54): (vlog-2730) Undefined variable: 'data'.
+
+} {4.0 5.0} {}}

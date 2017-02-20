@@ -1,0 +1,102 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/linux/Documents/verilogClub/assignment_1_student
+va2_testbench
+Z0 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+Z1 !s110 1487395593
+!i10b 1
+!s100 _nS;Cci@BakZ@WlfO;J8i2
+IfnmTCRJ;8C@PV86biD[UI0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 !s105 a2_testbench_sv_unit
+S1
+Z4 d/home/linux/Documents/verilogClub/assignment_2_student
+Z5 w1487095584
+Z6 8/home/linux/Documents/verilogClub/assignment_2_student/a2_testbench.sv
+Z7 F/home/linux/Documents/verilogClub/assignment_2_student/a2_testbench.sv
+L0 20
+Z8 OV;L;10.4d;61
+r1
+!s85 0
+31
+Z9 !s108 1487395592.000000
+Z10 !s107 /home/linux/Documents/verilogClub/assignment_2_student/a2_testbench.sv|
+Z11 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/linux/Documents/verilogClub/assignment_2_student/a2_testbench.sv|
+!i113 1
+Z12 o-work work -sv
+vdriver
+R0
+R1
+!i10b 1
+!s100 4GX3<2IJ_EOBYYRkJBSCc1
+ISiKb9fa3GJ9hBdQ3Z^B3`0
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 111
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+vmemory_8x32
+R0
+!s110 1487394394
+!i10b 1
+!s100 UXdaOX52T7B>T3h18K18j0
+IZ;9f[[U?==N4kg1BZ;7V^0
+R2
+!s105 memory_8x32_sv_unit
+S1
+R4
+w1487394392
+8/home/linux/Documents/verilogClub/assignment_2_student/memory_8x32.sv
+F/home/linux/Documents/verilogClub/assignment_2_student/memory_8x32.sv
+L0 17
+R8
+r1
+!s85 0
+31
+!s108 1487394394.000000
+!s107 /home/linux/Documents/verilogClub/assignment_2_student/memory_8x32.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/linux/Documents/verilogClub/assignment_2_student/memory_8x32.sv|
+!i113 1
+R12
+vscoreboard
+R0
+R1
+!i10b 1
+!s100 mX1?S46@ffmdHDTL@9PAc3
+IG`Oc_m0iRRN@_Mf7zBTQP2
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 215
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12

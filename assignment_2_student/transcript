@@ -1,0 +1,503 @@
+# Loading project assignment_2
+# Compile of a2_testbench.sv was successful.
+# Compile of memory_8x32.sv was successful.
+# Compile of memory_8x32.sv was successful.
+# Compile of memory_8x32.sv was successful.
+vsim work.a2_testbench
+# vsim work.a2_testbench 
+# Start time: 21:34:06 on Feb 17,2017
+# Loading sv_std.std
+# Loading work.a2_testbench
+# Loading work.memory_8x32
+# Loading work.driver
+# Loading work.scoreboard
+add wave -position end  sim:/a2_testbench/errors
+add wave -position end  sim:/a2_testbench/clk
+add wave -position end  sim:/a2_testbench/resetn
+add wave -position end  sim:/a2_testbench/write_enable
+add wave -position end  sim:/a2_testbench/address
+add wave -position end  sim:/a2_testbench/write_data
+add wave -position end  sim:/a2_testbench/read_data
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=xxxxxxxx, Got=0000000X, address=0, at time=                  50
+# a2_testbench.scoreboard_inst: Read data error: Expected=13b20527, Got=00000007, address=3, at time=                  80
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=13b20527, Got=00000007, address=3, at time=                 110
+# a2_testbench.scoreboard_inst: Read data error: Expected=fbdfc0f7, Got=00000007, address=5, at time=                 120
+# a2_testbench.scoreboard_inst: Read data error: Expected=13b20527, Got=00000007, address=3, at time=                 150
+# a2_testbench.scoreboard_inst: Read data error: Expected=1794792f, Got=00000007, address=6, at time=                 170
+# a2_testbench.scoreboard_inst: Read data error: Expected=a49f1049, Got=00000001, address=4, at time=                 180
+# Compile of a2_testbench.sv was successful.
+# Compile of memory_8x32.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.a2_testbench
+# End time: 21:41:41 on Feb 17,2017, Elapsed time: 0:07:35
+# Errors: 0, Warnings: 0
+# vsim work.a2_testbench 
+# Start time: 21:41:41 on Feb 17,2017
+# Loading sv_std.std
+# Loading work.a2_testbench
+# Loading work.memory_8x32
+# Loading work.driver
+# Loading work.scoreboard
+add wave -position end  sim:/a2_testbench/errors
+add wave -position end  sim:/a2_testbench/clk
+add wave -position end  sim:/a2_testbench/resetn
+add wave -position end  sim:/a2_testbench/write_enable
+add wave -position end  sim:/a2_testbench/address
+add wave -position end  sim:/a2_testbench/write_data
+add wave -position end  sim:/a2_testbench/read_data
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=xxxxxxxx, Got=0000000X, address=0, at time=                  50
+# a2_testbench.scoreboard_inst: Read data error: Expected=13b20527, Got=00000007, address=3, at time=                  80
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=13b20527, Got=00000007, address=3, at time=                 110
+# a2_testbench.scoreboard_inst: Read data error: Expected=fbdfc0f7, Got=00000007, address=5, at time=                 120
+# a2_testbench.scoreboard_inst: Read data error: Expected=13b20527, Got=00000007, address=3, at time=                 150
+# a2_testbench.scoreboard_inst: Read data error: Expected=1794792f, Got=00000007, address=6, at time=                 170
+# a2_testbench.scoreboard_inst: Read data error: Expected=a49f1049, Got=00000001, address=4, at time=                 180
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=8612660c, Got=00000004, address=2, at time=                 210
+# a2_testbench.scoreboard_inst: Read data error: Expected=8612660c, Got=00000004, address=2, at time=                 220
+# a2_testbench.scoreboard_inst: Read data error: Expected=13b20527, Got=00000007, address=3, at time=                 230
+# a2_testbench.scoreboard_inst: Read data error: Expected=a1f1ae43, Got=00000003, address=1, at time=                 260
+# a2_testbench.scoreboard_inst: Read data error: Expected=6ba667d7, Got=00000007, address=2, at time=                 270
+# a2_testbench.scoreboard_inst: Read data error: Expected=c26b4084, Got=00000004, address=0, at time=                 300
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=6ba667d7, Got=00000007, address=2, at time=                 320
+# a2_testbench.scoreboard_inst: Read data error: Expected=c26b4084, Got=00000004, address=0, at time=                 330
+# a2_testbench.scoreboard_inst: Read data error: Expected=fbdfc0f7, Got=00000007, address=5, at time=                 340
+# a2_testbench.scoreboard_inst: Read data error: Expected=5ed439bd, Got=00000005, address=4, at time=                 350
+# a2_testbench.scoreboard_inst: Read data error: Expected=46a88f8d, Got=00000005, address=3, at time=                 380
+# a2_testbench.scoreboard_inst: Read data error: Expected=9674962c, Got=00000004, address=0, at time=                 400
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=5ed439bd, Got=00000005, address=4, at time=                 410
+# a2_testbench.scoreboard_inst: Read data error: Expected=6ba667d7, Got=00000007, address=2, at time=                 430
+# a2_testbench.scoreboard_inst: Read data error: Expected=a0253a40, Got=00000000, address=7, at time=                 440
+# a2_testbench.scoreboard_inst: Read data error: Expected=d72a9eae, Got=00000006, address=1, at time=                 450
+# a2_testbench.scoreboard_inst: Read data error: Expected=1794792f, Got=00000007, address=6, at time=                 470
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=cd8bb69b, Got=00000003, address=5, at time=                 510
+# a2_testbench.scoreboard_inst: Read data error: Expected=f5cb3ceb, Got=00000003, address=1, at time=                 540
+# a2_testbench.scoreboard_inst: Read data error: Expected=99011a32, Got=00000002, address=0, at time=                 560
+# a2_testbench.scoreboard_inst: Read data error: Expected=5afc25b5, Got=00000005, address=1, at time=                 600
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=c95a4492, Got=00000002, address=4, at time=                 610
+# a2_testbench.scoreboard_inst: Read data error: Expected=c95a4492, Got=00000002, address=4, at time=                 620
+# a2_testbench.scoreboard_inst: Read data error: Expected=cd8bb69b, Got=00000003, address=5, at time=                 640
+# a2_testbench.scoreboard_inst: Read data error: Expected=1794792f, Got=00000007, address=6, at time=                 660
+# a2_testbench.scoreboard_inst: Read data error: Expected=1794792f, Got=00000007, address=6, at time=                 670
+# a2_testbench.scoreboard_inst: Read data error: Expected=c95a4492, Got=00000002, address=4, at time=                 700
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=a0253a40, Got=00000000, address=7, at time=                 730
+# a2_testbench.scoreboard_inst: Read data error: Expected=c95a4492, Got=00000002, address=4, at time=                 740
+# a2_testbench.scoreboard_inst: Read data error: Expected=1632b52c, Got=00000004, address=1, at time=                 760
+# a2_testbench.scoreboard_inst: Read data error: Expected=1794792f, Got=00000007, address=6, at time=                 790
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=aab7c855, Got=00000005, address=0, at time=                 810
+# a2_testbench.scoreboard_inst: Read data error: Expected=1794792f, Got=00000007, address=6, at time=                 850
+# a2_testbench.scoreboard_inst: Read data error: Expected=b37ff066, Got=00000006, address=5, at time=                 860
+# a2_testbench.scoreboard_inst: Read data error: Expected=1632b52c, Got=00000004, address=1, at time=                 870
+# a2_testbench.scoreboard_inst: Read data error: Expected=ed2fb8da, Got=00000002, address=3, at time=                 900
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=e5b636cb, Got=00000003, address=1, at time=                 910
+# a2_testbench.scoreboard_inst: Read data error: Expected=71f49de3, Got=00000003, address=7, at time=                 920
+# a2_testbench.scoreboard_inst: Read data error: Expected=282c4750, Got=00000000, address=0, at time=                 990
+# a2_testbench.scoreboard_inst: Read data error: Expected=e5b636cb, Got=00000003, address=1, at time=                1000
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=c08e0c81, Got=00000001, address=5, at time=                1050
+# a2_testbench.scoreboard_inst: Read data error: Expected=c08e0c81, Got=00000001, address=5, at time=                1060
+# ------------------------------------------------------------------------
+# Simulation ended with:          49 errors
+# ------------------------------------------------------------------------
+# ** Note: $stop    : /home/linux/Documents/verilogClub/assignment_2_student/a2_testbench.sv(202)
+#    Time: 1070 ns  Iteration: 1  Instance: /a2_testbench/driver_inst
+# Break in Module driver at /home/linux/Documents/verilogClub/assignment_2_student/a2_testbench.sv line 202
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=c08e0c81, Got=00000001, address=5, at time=                1070
+# a2_testbench.scoreboard_inst: Read data error: Expected=c08e0c81, Got=00000001, address=5, at time=                1080
+# a2_testbench.scoreboard_inst: Read data error: Expected=c08e0c81, Got=00000001, address=5, at time=                1090
+# a2_testbench.scoreboard_inst: Read data error: Expected=c08e0c81, Got=00000001, address=5, at time=                1100
+# a2_testbench.scoreboard_inst: Read data error: Expected=c08e0c81, Got=00000001, address=5, at time=                1110
+# a2_testbench.scoreboard_inst: Read data error: Expected=c08e0c81, Got=00000001, address=5, at time=                1120
+# a2_testbench.scoreboard_inst: Read data error: Expected=24e48149, Got=00000001, address=1, at time=                1150
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=633cc1c6, Got=00000006, address=0, at time=                1190
+# a2_testbench.scoreboard_inst: Read data error: Expected=12e6d925, Got=00000005, address=6, at time=                1210
+# a2_testbench.scoreboard_inst: Read data error: Expected=b77a986e, Got=00000006, address=2, at time=                1230
+# a2_testbench.scoreboard_inst: Read data error: Expected=12e6d925, Got=00000005, address=6, at time=                1240
+# a2_testbench.scoreboard_inst: Read data error: Expected=b77a986e, Got=00000006, address=2, at time=                1270
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=12e6d925, Got=00000005, address=6, at time=                1290
+# a2_testbench.scoreboard_inst: Read data error: Expected=b77a986e, Got=00000006, address=2, at time=                1300
+# a2_testbench.scoreboard_inst: Read data error: Expected=b77a986e, Got=00000006, address=2, at time=                1310
+# a2_testbench.scoreboard_inst: Read data error: Expected=554ab3aa, Got=00000002, address=3, at time=                1320
+# a2_testbench.scoreboard_inst: Read data error: Expected=3a0a6174, Got=00000004, address=7, at time=                1330
+# a2_testbench.scoreboard_inst: Read data error: Expected=554ab3aa, Got=00000002, address=3, at time=                1340
+# a2_testbench.scoreboard_inst: Read data error: Expected=24e48149, Got=00000001, address=1, at time=                1350
+# Compile of a2_testbench.sv was successful.
+# Compile of memory_8x32.sv failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of a2_testbench.sv was successful.
+# Compile of memory_8x32.sv was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.a2_testbench
+# End time: 21:56:45 on Feb 17,2017, Elapsed time: 0:15:04
+# Errors: 0, Warnings: 0
+# vsim work.a2_testbench 
+# Start time: 21:56:45 on Feb 17,2017
+# Loading sv_std.std
+# Loading work.a2_testbench
+# Loading work.memory_8x32
+# Loading work.driver
+# Loading work.scoreboard
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=xxxxxxxx, Got=0000000X, address=0, at time=                  50
+# a2_testbench.scoreboard_inst: Read data error: Expected=13b20527, Got=00000007, address=3, at time=                  80
+add wave -position end  sim:/a2_testbench/errors
+add wave -position end  sim:/a2_testbench/clk
+add wave -position end  sim:/a2_testbench/resetn
+add wave -position end  sim:/a2_testbench/write_enable
+add wave -position end  sim:/a2_testbench/address
+add wave -position end  sim:/a2_testbench/write_data
+add wave -position end  sim:/a2_testbench/read_data
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=13b20527, Got=00000007, address=3, at time=                 110
+# a2_testbench.scoreboard_inst: Read data error: Expected=fbdfc0f7, Got=00000007, address=5, at time=                 120
+# a2_testbench.scoreboard_inst: Read data error: Expected=13b20527, Got=00000007, address=3, at time=                 150
+# a2_testbench.scoreboard_inst: Read data error: Expected=1794792f, Got=00000007, address=6, at time=                 170
+# a2_testbench.scoreboard_inst: Read data error: Expected=a49f1049, Got=00000001, address=4, at time=                 180
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=8612660c, Got=00000004, address=2, at time=                 210
+# a2_testbench.scoreboard_inst: Read data error: Expected=8612660c, Got=00000004, address=2, at time=                 220
+# a2_testbench.scoreboard_inst: Read data error: Expected=13b20527, Got=00000007, address=3, at time=                 230
+# a2_testbench.scoreboard_inst: Read data error: Expected=a1f1ae43, Got=00000003, address=1, at time=                 260
+# a2_testbench.scoreboard_inst: Read data error: Expected=6ba667d7, Got=00000007, address=2, at time=                 270
+# a2_testbench.scoreboard_inst: Read data error: Expected=c26b4084, Got=00000004, address=0, at time=                 300
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=6ba667d7, Got=00000007, address=2, at time=                 320
+# a2_testbench.scoreboard_inst: Read data error: Expected=c26b4084, Got=00000004, address=0, at time=                 330
+# a2_testbench.scoreboard_inst: Read data error: Expected=fbdfc0f7, Got=00000007, address=5, at time=                 340
+# a2_testbench.scoreboard_inst: Read data error: Expected=5ed439bd, Got=00000005, address=4, at time=                 350
+# a2_testbench.scoreboard_inst: Read data error: Expected=46a88f8d, Got=00000005, address=3, at time=                 380
+# a2_testbench.scoreboard_inst: Read data error: Expected=9674962c, Got=00000004, address=0, at time=                 400
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=5ed439bd, Got=00000005, address=4, at time=                 410
+# a2_testbench.scoreboard_inst: Read data error: Expected=6ba667d7, Got=00000007, address=2, at time=                 430
+# a2_testbench.scoreboard_inst: Read data error: Expected=a0253a40, Got=00000000, address=7, at time=                 440
+# a2_testbench.scoreboard_inst: Read data error: Expected=d72a9eae, Got=00000006, address=1, at time=                 450
+# a2_testbench.scoreboard_inst: Read data error: Expected=1794792f, Got=00000007, address=6, at time=                 470
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=cd8bb69b, Got=00000003, address=5, at time=                 510
+# a2_testbench.scoreboard_inst: Read data error: Expected=f5cb3ceb, Got=00000003, address=1, at time=                 540
+# a2_testbench.scoreboard_inst: Read data error: Expected=99011a32, Got=00000002, address=0, at time=                 560
+# a2_testbench.scoreboard_inst: Read data error: Expected=5afc25b5, Got=00000005, address=1, at time=                 600
+# Compile of a2_testbench.sv was successful.
+# Compile of memory_8x32.sv was successful.
+# 2 compiles, 0 failed with no errors.
+# Load canceled
+restart
+# Loading work.a2_testbench
+# Loading work.memory_8x32
+# Loading work.driver
+# Loading work.scoreboard
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=13b20527, Got=xxxxxxxx, address=3, at time=                  80
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=13b20527, Got=xxxxxxxx, address=3, at time=                 110
+# a2_testbench.scoreboard_inst: Read data error: Expected=fbdfc0f7, Got=xxxxxxxx, address=5, at time=                 120
+# a2_testbench.scoreboard_inst: Read data error: Expected=13b20527, Got=xxxxxxxx, address=3, at time=                 150
+# a2_testbench.scoreboard_inst: Read data error: Expected=1794792f, Got=xxxxxxxx, address=6, at time=                 170
+# a2_testbench.scoreboard_inst: Read data error: Expected=a49f1049, Got=xxxxxxxx, address=4, at time=                 180
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=8612660c, Got=xxxxxxxx, address=2, at time=                 210
+# a2_testbench.scoreboard_inst: Read data error: Expected=8612660c, Got=xxxxxxxx, address=2, at time=                 220
+# a2_testbench.scoreboard_inst: Read data error: Expected=13b20527, Got=xxxxxxxx, address=3, at time=                 230
+# a2_testbench.scoreboard_inst: Read data error: Expected=a1f1ae43, Got=xxxxxxxx, address=1, at time=                 260
+# a2_testbench.scoreboard_inst: Read data error: Expected=6ba667d7, Got=xxxxxxxx, address=2, at time=                 270
+# a2_testbench.scoreboard_inst: Read data error: Expected=c26b4084, Got=xxxxxxxx, address=0, at time=                 300
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=6ba667d7, Got=xxxxxxxx, address=2, at time=                 320
+# a2_testbench.scoreboard_inst: Read data error: Expected=c26b4084, Got=xxxxxxxx, address=0, at time=                 330
+# a2_testbench.scoreboard_inst: Read data error: Expected=fbdfc0f7, Got=xxxxxxxx, address=5, at time=                 340
+# a2_testbench.scoreboard_inst: Read data error: Expected=5ed439bd, Got=xxxxxxxx, address=4, at time=                 350
+# a2_testbench.scoreboard_inst: Read data error: Expected=46a88f8d, Got=xxxxxxxx, address=3, at time=                 380
+# a2_testbench.scoreboard_inst: Read data error: Expected=9674962c, Got=xxxxxxxx, address=0, at time=                 400
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=5ed439bd, Got=xxxxxxxx, address=4, at time=                 410
+# a2_testbench.scoreboard_inst: Read data error: Expected=6ba667d7, Got=xxxxxxxx, address=2, at time=                 430
+# a2_testbench.scoreboard_inst: Read data error: Expected=a0253a40, Got=xxxxxxxx, address=7, at time=                 440
+# a2_testbench.scoreboard_inst: Read data error: Expected=d72a9eae, Got=xxxxxxxx, address=1, at time=                 450
+# a2_testbench.scoreboard_inst: Read data error: Expected=1794792f, Got=xxxxxxxx, address=6, at time=                 470
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=cd8bb69b, Got=xxxxxxxx, address=5, at time=                 510
+# a2_testbench.scoreboard_inst: Read data error: Expected=f5cb3ceb, Got=xxxxxxxx, address=1, at time=                 540
+# a2_testbench.scoreboard_inst: Read data error: Expected=99011a32, Got=xxxxxxxx, address=0, at time=                 560
+# a2_testbench.scoreboard_inst: Read data error: Expected=5afc25b5, Got=xxxxxxxx, address=1, at time=                 600
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=c95a4492, Got=xxxxxxxx, address=4, at time=                 610
+# a2_testbench.scoreboard_inst: Read data error: Expected=c95a4492, Got=xxxxxxxx, address=4, at time=                 620
+# a2_testbench.scoreboard_inst: Read data error: Expected=cd8bb69b, Got=xxxxxxxx, address=5, at time=                 640
+# a2_testbench.scoreboard_inst: Read data error: Expected=1794792f, Got=xxxxxxxx, address=6, at time=                 660
+# a2_testbench.scoreboard_inst: Read data error: Expected=1794792f, Got=xxxxxxxx, address=6, at time=                 670
+# a2_testbench.scoreboard_inst: Read data error: Expected=c95a4492, Got=xxxxxxxx, address=4, at time=                 700
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=a0253a40, Got=xxxxxxxx, address=7, at time=                 730
+# a2_testbench.scoreboard_inst: Read data error: Expected=c95a4492, Got=xxxxxxxx, address=4, at time=                 740
+# a2_testbench.scoreboard_inst: Read data error: Expected=1632b52c, Got=xxxxxxxx, address=1, at time=                 760
+# a2_testbench.scoreboard_inst: Read data error: Expected=1794792f, Got=xxxxxxxx, address=6, at time=                 790
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=aab7c855, Got=xxxxxxxx, address=0, at time=                 810
+# a2_testbench.scoreboard_inst: Read data error: Expected=1794792f, Got=xxxxxxxx, address=6, at time=                 850
+# a2_testbench.scoreboard_inst: Read data error: Expected=b37ff066, Got=xxxxxxxx, address=5, at time=                 860
+# a2_testbench.scoreboard_inst: Read data error: Expected=1632b52c, Got=xxxxxxxx, address=1, at time=                 870
+# a2_testbench.scoreboard_inst: Read data error: Expected=ed2fb8da, Got=xxxxxxxx, address=3, at time=                 900
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=e5b636cb, Got=xxxxxxxx, address=1, at time=                 910
+# a2_testbench.scoreboard_inst: Read data error: Expected=71f49de3, Got=xxxxxxxx, address=7, at time=                 920
+# a2_testbench.scoreboard_inst: Read data error: Expected=282c4750, Got=xxxxxxxx, address=0, at time=                 990
+# a2_testbench.scoreboard_inst: Read data error: Expected=e5b636cb, Got=xxxxxxxx, address=1, at time=                1000
+# Compile of a2_testbench.sv was successful.
+# Compile of memory_8x32.sv failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Load canceled
+restart
+# Loading work.a2_testbench
+# Loading work.driver
+# Loading work.scoreboard
+# Compile of a2_testbench.sv was successful.
+# Compile of memory_8x32.sv failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of a2_testbench.sv was successful.
+# Compile of memory_8x32.sv failed with 2 errors.
+# 2 compiles, 1 failed with 2 errors.
+# Load canceled
+restart
+# Loading work.a2_testbench
+# Loading work.driver
+# Loading work.scoreboard
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=13b20527, Got=xxxxxxxx, address=3, at time=                  80
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=13b20527, Got=xxxxxxxx, address=3, at time=                 110
+# a2_testbench.scoreboard_inst: Read data error: Expected=fbdfc0f7, Got=xxxxxxxx, address=5, at time=                 120
+# a2_testbench.scoreboard_inst: Read data error: Expected=13b20527, Got=xxxxxxxx, address=3, at time=                 150
+# a2_testbench.scoreboard_inst: Read data error: Expected=1794792f, Got=xxxxxxxx, address=6, at time=                 170
+# a2_testbench.scoreboard_inst: Read data error: Expected=a49f1049, Got=xxxxxxxx, address=4, at time=                 180
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=8612660c, Got=xxxxxxxx, address=2, at time=                 210
+# a2_testbench.scoreboard_inst: Read data error: Expected=8612660c, Got=xxxxxxxx, address=2, at time=                 220
+# a2_testbench.scoreboard_inst: Read data error: Expected=13b20527, Got=xxxxxxxx, address=3, at time=                 230
+# a2_testbench.scoreboard_inst: Read data error: Expected=a1f1ae43, Got=xxxxxxxx, address=1, at time=                 260
+# a2_testbench.scoreboard_inst: Read data error: Expected=6ba667d7, Got=xxxxxxxx, address=2, at time=                 270
+# a2_testbench.scoreboard_inst: Read data error: Expected=c26b4084, Got=xxxxxxxx, address=0, at time=                 300
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=6ba667d7, Got=xxxxxxxx, address=2, at time=                 320
+# a2_testbench.scoreboard_inst: Read data error: Expected=c26b4084, Got=xxxxxxxx, address=0, at time=                 330
+# a2_testbench.scoreboard_inst: Read data error: Expected=fbdfc0f7, Got=xxxxxxxx, address=5, at time=                 340
+# a2_testbench.scoreboard_inst: Read data error: Expected=5ed439bd, Got=xxxxxxxx, address=4, at time=                 350
+# a2_testbench.scoreboard_inst: Read data error: Expected=46a88f8d, Got=xxxxxxxx, address=3, at time=                 380
+# a2_testbench.scoreboard_inst: Read data error: Expected=9674962c, Got=xxxxxxxx, address=0, at time=                 400
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=5ed439bd, Got=xxxxxxxx, address=4, at time=                 410
+# a2_testbench.scoreboard_inst: Read data error: Expected=6ba667d7, Got=xxxxxxxx, address=2, at time=                 430
+# a2_testbench.scoreboard_inst: Read data error: Expected=a0253a40, Got=xxxxxxxx, address=7, at time=                 440
+# a2_testbench.scoreboard_inst: Read data error: Expected=d72a9eae, Got=xxxxxxxx, address=1, at time=                 450
+# a2_testbench.scoreboard_inst: Read data error: Expected=1794792f, Got=xxxxxxxx, address=6, at time=                 470
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=cd8bb69b, Got=xxxxxxxx, address=5, at time=                 510
+# a2_testbench.scoreboard_inst: Read data error: Expected=f5cb3ceb, Got=xxxxxxxx, address=1, at time=                 540
+# a2_testbench.scoreboard_inst: Read data error: Expected=99011a32, Got=xxxxxxxx, address=0, at time=                 560
+# a2_testbench.scoreboard_inst: Read data error: Expected=5afc25b5, Got=xxxxxxxx, address=1, at time=                 600
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=c95a4492, Got=xxxxxxxx, address=4, at time=                 610
+# a2_testbench.scoreboard_inst: Read data error: Expected=c95a4492, Got=xxxxxxxx, address=4, at time=                 620
+# a2_testbench.scoreboard_inst: Read data error: Expected=cd8bb69b, Got=xxxxxxxx, address=5, at time=                 640
+# a2_testbench.scoreboard_inst: Read data error: Expected=1794792f, Got=xxxxxxxx, address=6, at time=                 660
+# a2_testbench.scoreboard_inst: Read data error: Expected=1794792f, Got=xxxxxxxx, address=6, at time=                 670
+# a2_testbench.scoreboard_inst: Read data error: Expected=c95a4492, Got=xxxxxxxx, address=4, at time=                 700
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=a0253a40, Got=xxxxxxxx, address=7, at time=                 730
+# a2_testbench.scoreboard_inst: Read data error: Expected=c95a4492, Got=xxxxxxxx, address=4, at time=                 740
+# a2_testbench.scoreboard_inst: Read data error: Expected=1632b52c, Got=xxxxxxxx, address=1, at time=                 760
+# a2_testbench.scoreboard_inst: Read data error: Expected=1794792f, Got=xxxxxxxx, address=6, at time=                 790
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=aab7c855, Got=xxxxxxxx, address=0, at time=                 810
+# a2_testbench.scoreboard_inst: Read data error: Expected=1794792f, Got=xxxxxxxx, address=6, at time=                 850
+# a2_testbench.scoreboard_inst: Read data error: Expected=b37ff066, Got=xxxxxxxx, address=5, at time=                 860
+# a2_testbench.scoreboard_inst: Read data error: Expected=1632b52c, Got=xxxxxxxx, address=1, at time=                 870
+# a2_testbench.scoreboard_inst: Read data error: Expected=ed2fb8da, Got=xxxxxxxx, address=3, at time=                 900
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=e5b636cb, Got=xxxxxxxx, address=1, at time=                 910
+# a2_testbench.scoreboard_inst: Read data error: Expected=71f49de3, Got=xxxxxxxx, address=7, at time=                 920
+# a2_testbench.scoreboard_inst: Read data error: Expected=282c4750, Got=xxxxxxxx, address=0, at time=                 990
+# a2_testbench.scoreboard_inst: Read data error: Expected=e5b636cb, Got=xxxxxxxx, address=1, at time=                1000
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=c08e0c81, Got=xxxxxxxx, address=5, at time=                1050
+# a2_testbench.scoreboard_inst: Read data error: Expected=c08e0c81, Got=xxxxxxxx, address=5, at time=                1060
+# ------------------------------------------------------------------------
+# Simulation ended with:          48 errors
+# ------------------------------------------------------------------------
+# ** Note: $stop    : /home/linux/Documents/verilogClub/assignment_2_student/a2_testbench.sv(202)
+#    Time: 1070 ns  Iteration: 1  Instance: /a2_testbench/driver_inst
+# Break in Module driver at /home/linux/Documents/verilogClub/assignment_2_student/a2_testbench.sv line 202
+# Compile of a2_testbench.sv was successful.
+# Compile of memory_8x32.sv failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of a2_testbench.sv was successful.
+# Compile of memory_8x32.sv failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+vsim work.a2_testbench
+# End time: 22:26:41 on Feb 17,2017, Elapsed time: 0:29:56
+# Errors: 3, Warnings: 0
+# vsim work.a2_testbench 
+# Start time: 22:26:41 on Feb 17,2017
+# Loading sv_std.std
+# Loading work.a2_testbench
+# Loading work.memory_8x32
+# Loading work.driver
+# Loading work.scoreboard
+add wave -position end  sim:/a2_testbench/errors
+add wave -position end  sim:/a2_testbench/clk
+add wave -position end  sim:/a2_testbench/resetn
+add wave -position end  sim:/a2_testbench/write_enable
+add wave -position end  sim:/a2_testbench/address
+add wave -position end  sim:/a2_testbench/write_data
+add wave -position end  sim:/a2_testbench/read_data
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=13b20527, Got=xxxxxxxx, address=3, at time=                  80
+run
+run
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=13b20527, Got=xxxxxxxx, address=3, at time=                 110
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=fbdfc0f7, Got=xxxxxxxx, address=5, at time=                 120
+run
+run
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=13b20527, Got=xxxxxxxx, address=3, at time=                 150
+run
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=1794792f, Got=xxxxxxxx, address=6, at time=                 170
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=a49f1049, Got=xxxxxxxx, address=4, at time=                 180
+run
+run
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=8612660c, Got=xxxxxxxx, address=2, at time=                 210
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=8612660c, Got=xxxxxxxx, address=2, at time=                 220
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=13b20527, Got=xxxxxxxx, address=3, at time=                 230
+run
+run
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=a1f1ae43, Got=xxxxxxxx, address=1, at time=                 260
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=6ba667d7, Got=xxxxxxxx, address=2, at time=                 270
+run
+run
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=c26b4084, Got=xxxxxxxx, address=0, at time=                 300
+run
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=6ba667d7, Got=xxxxxxxx, address=2, at time=                 320
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=c26b4084, Got=xxxxxxxx, address=0, at time=                 330
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=fbdfc0f7, Got=xxxxxxxx, address=5, at time=                 340
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=5ed439bd, Got=xxxxxxxx, address=4, at time=                 350
+run
+run
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=46a88f8d, Got=xxxxxxxx, address=3, at time=                 380
+# a2_testbench.scoreboard_inst: Read data error: Expected=9674962c, Got=xxxxxxxx, address=0, at time=                 400
+# a2_testbench.scoreboard_inst: Read data error: Expected=5ed439bd, Got=xxxxxxxx, address=4, at time=                 410
+# a2_testbench.scoreboard_inst: Read data error: Expected=6ba667d7, Got=xxxxxxxx, address=2, at time=                 430
+# a2_testbench.scoreboard_inst: Read data error: Expected=a0253a40, Got=xxxxxxxx, address=7, at time=                 440
+# a2_testbench.scoreboard_inst: Read data error: Expected=d72a9eae, Got=xxxxxxxx, address=1, at time=                 450
+# a2_testbench.scoreboard_inst: Read data error: Expected=1794792f, Got=xxxxxxxx, address=6, at time=                 470
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=cd8bb69b, Got=xxxxxxxx, address=5, at time=                 510
+# a2_testbench.scoreboard_inst: Read data error: Expected=f5cb3ceb, Got=xxxxxxxx, address=1, at time=                 540
+# a2_testbench.scoreboard_inst: Read data error: Expected=99011a32, Got=xxxxxxxx, address=0, at time=                 560
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=5afc25b5, Got=xxxxxxxx, address=1, at time=                 600
+# a2_testbench.scoreboard_inst: Read data error: Expected=c95a4492, Got=xxxxxxxx, address=4, at time=                 610
+# a2_testbench.scoreboard_inst: Read data error: Expected=c95a4492, Got=xxxxxxxx, address=4, at time=                 620
+# a2_testbench.scoreboard_inst: Read data error: Expected=cd8bb69b, Got=xxxxxxxx, address=5, at time=                 640
+# a2_testbench.scoreboard_inst: Read data error: Expected=1794792f, Got=xxxxxxxx, address=6, at time=                 660
+# a2_testbench.scoreboard_inst: Read data error: Expected=1794792f, Got=xxxxxxxx, address=6, at time=                 670
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=c95a4492, Got=xxxxxxxx, address=4, at time=                 700
+# a2_testbench.scoreboard_inst: Read data error: Expected=a0253a40, Got=xxxxxxxx, address=7, at time=                 730
+# a2_testbench.scoreboard_inst: Read data error: Expected=c95a4492, Got=xxxxxxxx, address=4, at time=                 740
+# a2_testbench.scoreboard_inst: Read data error: Expected=1632b52c, Got=xxxxxxxx, address=1, at time=                 760
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=1794792f, Got=xxxxxxxx, address=6, at time=                 790
+# a2_testbench.scoreboard_inst: Read data error: Expected=aab7c855, Got=xxxxxxxx, address=0, at time=                 810
+# a2_testbench.scoreboard_inst: Read data error: Expected=1794792f, Got=xxxxxxxx, address=6, at time=                 850
+# a2_testbench.scoreboard_inst: Read data error: Expected=b37ff066, Got=xxxxxxxx, address=5, at time=                 860
+# a2_testbench.scoreboard_inst: Read data error: Expected=1632b52c, Got=xxxxxxxx, address=1, at time=                 870
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=ed2fb8da, Got=xxxxxxxx, address=3, at time=                 900
+# a2_testbench.scoreboard_inst: Read data error: Expected=e5b636cb, Got=xxxxxxxx, address=1, at time=                 910
+# a2_testbench.scoreboard_inst: Read data error: Expected=71f49de3, Got=xxxxxxxx, address=7, at time=                 920
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=282c4750, Got=xxxxxxxx, address=0, at time=                 990
+# a2_testbench.scoreboard_inst: Read data error: Expected=e5b636cb, Got=xxxxxxxx, address=1, at time=                1000
+# a2_testbench.scoreboard_inst: Read data error: Expected=c08e0c81, Got=xxxxxxxx, address=5, at time=                1050
+# a2_testbench.scoreboard_inst: Read data error: Expected=c08e0c81, Got=xxxxxxxx, address=5, at time=                1060
+# ------------------------------------------------------------------------
+# Simulation ended with:          48 errors
+# ------------------------------------------------------------------------
+# ** Note: $stop    : /home/linux/Documents/verilogClub/assignment_2_student/a2_testbench.sv(202)
+#    Time: 1070 ns  Iteration: 1  Instance: /a2_testbench/driver_inst
+# Break in Module driver at /home/linux/Documents/verilogClub/assignment_2_student/a2_testbench.sv line 202
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=c08e0c81, Got=xxxxxxxx, address=5, at time=                1070
+# a2_testbench.scoreboard_inst: Read data error: Expected=c08e0c81, Got=xxxxxxxx, address=5, at time=                1080
+# a2_testbench.scoreboard_inst: Read data error: Expected=c08e0c81, Got=xxxxxxxx, address=5, at time=                1090
+# a2_testbench.scoreboard_inst: Read data error: Expected=c08e0c81, Got=xxxxxxxx, address=5, at time=                1100
+# a2_testbench.scoreboard_inst: Read data error: Expected=c08e0c81, Got=xxxxxxxx, address=5, at time=                1110
+# a2_testbench.scoreboard_inst: Read data error: Expected=c08e0c81, Got=xxxxxxxx, address=5, at time=                1120
+# a2_testbench.scoreboard_inst: Read data error: Expected=24e48149, Got=xxxxxxxx, address=1, at time=                1150
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=633cc1c6, Got=xxxxxxxx, address=0, at time=                1190
+# a2_testbench.scoreboard_inst: Read data error: Expected=12e6d925, Got=xxxxxxxx, address=6, at time=                1210
+# a2_testbench.scoreboard_inst: Read data error: Expected=b77a986e, Got=xxxxxxxx, address=2, at time=                1230
+# a2_testbench.scoreboard_inst: Read data error: Expected=12e6d925, Got=xxxxxxxx, address=6, at time=                1240
+# a2_testbench.scoreboard_inst: Read data error: Expected=b77a986e, Got=xxxxxxxx, address=2, at time=                1270
+run
+# a2_testbench.scoreboard_inst: Read data error: Expected=12e6d925, Got=xxxxxxxx, address=6, at time=                1290
+# a2_testbench.scoreboard_inst: Read data error: Expected=b77a986e, Got=xxxxxxxx, address=2, at time=                1300
+# a2_testbench.scoreboard_inst: Read data error: Expected=b77a986e, Got=xxxxxxxx, address=2, at time=                1310
+# a2_testbench.scoreboard_inst: Read data error: Expected=554ab3aa, Got=xxxxxxxx, address=3, at time=                1320
+# a2_testbench.scoreboard_inst: Read data error: Expected=3a0a6174, Got=xxxxxxxx, address=7, at time=                1330
+# a2_testbench.scoreboard_inst: Read data error: Expected=554ab3aa, Got=xxxxxxxx, address=3, at time=                1340
+# a2_testbench.scoreboard_inst: Read data error: Expected=24e48149, Got=xxxxxxxx, address=1, at time=                1350
+add wave -position end  sim:/a2_testbench/scoreboard_inst/sb_memory_copy
+# End time: 22:34:49 on Feb 17,2017, Elapsed time: 0:08:08
+# Errors: 0, Warnings: 0
