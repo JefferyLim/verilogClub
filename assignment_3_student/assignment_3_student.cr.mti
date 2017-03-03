@@ -1,0 +1,18 @@
+/home/linux/Documents/verilogClub/assignment_3_student/traffic_controller.sv {2 {vlog -work work -sv -stats=none /home/linux/Documents/verilogClub/assignment_3_student/traffic_controller.sv
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module traffic_controller
+** Warning: /home/linux/Documents/verilogClub/assignment_3_student/traffic_controller.sv(132): (vlog-2182) 'old_state' might be read before written in always_comb or always @* block.
+
+Top level modules:
+	traffic_controller
+
+} {} {}} /home/linux/Documents/verilogClub/assignment_3_student/a3_testbench_p.sv {1 {vlog -work work -sv -stats=none /home/linux/Documents/verilogClub/assignment_3_student/a3_testbench_p.sv
+Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+-- Compiling module a3_testbench
+-- Compiling module driver
+-- Compiling module scoreboard
+
+Top level modules:
+	a3_testbench
+
+} {} {}}

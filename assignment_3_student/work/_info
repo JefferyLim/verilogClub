@@ -1,0 +1,127 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/home/linux/Documents/verilogClub/assignment_2_student
+va3_testbench
+Z0 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
+Z1 !s110 1488397392
+!i10b 1
+!s100 DPN?iU?[mA^GXz68C?@o[3
+IPhCl<1IK2kBi1oH?K=T_G3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 !s105 a3_testbench_p_sv_unit
+S1
+Z4 d/home/linux/Documents/verilogClub/assignment_3_student
+Z5 w1487891293
+Z6 8/home/linux/Documents/verilogClub/assignment_3_student/a3_testbench_p.sv
+Z7 F/home/linux/Documents/verilogClub/assignment_3_student/a3_testbench_p.sv
+L0 22
+Z8 OV;L;10.4d;61
+r1
+!s85 0
+31
+Z9 !s108 1488397392.000000
+Z10 !s107 /home/linux/Documents/verilogClub/assignment_3_student/a3_testbench_p.sv|
+Z11 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/linux/Documents/verilogClub/assignment_3_student/a3_testbench_p.sv|
+!i113 1
+Z12 o-work work -sv
+vdriver
+R0
+R1
+!i10b 1
+!s100 6]J@:^[cX[E?P^cj2if5X0
+IMSSUn?4bnPED]U8Z[ka6[3
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 124
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+vb+/vzfpAVAX2PN3tdTW7m2xhASH8AfAO1R3sCkyxiDU=
+R0
+R1
+!i10b 0
+!s100 lj_c[5j>[=8J2g8C]]AWl0
+IWl:3m[3DJ9QfNmP38z2RC2
+R2
+!i8a 1231748144
+R3
+S1
+R4
+w1488397392
+R6
+R7
+L0 259
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+n2d993d2
+vscoreboard
+R0
+R1
+!i10b 1
+!s100 X25@;<Seg=LG[Uj<ciXI^0
+Ic[fnYEX6NPKSkEIO9ae863
+R2
+R3
+S1
+R4
+R5
+R6
+R7
+L0 220
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+vtraffic_controller
+R0
+R1
+!i10b 1
+!s100 E_kaX2a<7HLU>]A5nLJH;0
+IIggA]GMGNJDmD[MB@LO[>1
+R2
+!s105 traffic_controller_sv_unit
+S1
+R4
+w1488397389
+8/home/linux/Documents/verilogClub/assignment_3_student/traffic_controller.sv
+F/home/linux/Documents/verilogClub/assignment_3_student/traffic_controller.sv
+L0 9
+R8
+r1
+!s85 0
+31
+R9
+!s107 /home/linux/Documents/verilogClub/assignment_3_student/traffic_controller.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/linux/Documents/verilogClub/assignment_3_student/traffic_controller.sv|
+!i113 1
+R12

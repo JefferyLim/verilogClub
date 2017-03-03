@@ -10,7 +10,7 @@ cModel Technology
 d/home/linux/Documents/verilogClub/assignment_1_student
 va2_testbench
 Z0 DXx6 sv_std 3 std 0 22 WmjPaeP=7F5?QFXzJ>D[Q2
-Z1 !s110 1487395593
+Z1 !s110 1487734014
 !i10b 1
 !s100 _nS;Cci@BakZ@WlfO;J8i2
 IfnmTCRJ;8C@PV86biD[UI0
@@ -26,7 +26,7 @@ Z8 OV;L;10.4d;61
 r1
 !s85 0
 31
-Z9 !s108 1487395592.000000
+Z9 !s108 1487734014.000000
 Z10 !s107 /home/linux/Documents/verilogClub/assignment_2_student/a2_testbench.sv|
 Z11 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/linux/Documents/verilogClub/assignment_2_student/a2_testbench.sv|
 !i113 1
@@ -56,15 +56,15 @@ R11
 R12
 vmemory_8x32
 R0
-!s110 1487394394
+R1
 !i10b 1
-!s100 UXdaOX52T7B>T3h18K18j0
-IZ;9f[[U?==N4kg1BZ;7V^0
+!s100 `8[ZVbJkD_K=[hTO]ZVe33
+IL11BA6@cj60FP5fBFH3F42
 R2
 !s105 memory_8x32_sv_unit
 S1
 R4
-w1487394392
+w1487734008
 8/home/linux/Documents/verilogClub/assignment_2_student/memory_8x32.sv
 F/home/linux/Documents/verilogClub/assignment_2_student/memory_8x32.sv
 L0 17
@@ -72,7 +72,7 @@ R8
 r1
 !s85 0
 31
-!s108 1487394394.000000
+R9
 !s107 /home/linux/Documents/verilogClub/assignment_2_student/memory_8x32.sv|
 !s90 -reportprogress|300|-work|work|-sv|-stats=none|/home/linux/Documents/verilogClub/assignment_2_student/memory_8x32.sv|
 !i113 1

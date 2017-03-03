@@ -1,0 +1,127 @@
+// Author		: 
+// Date  		: 
+// Description	:
+//    A unit delay RTL model of a traffic controller system.
+//    It only handles north-south and east-west lights, no
+//    left turns, no traffic presence sensors etc. ie a dumb light
+//    system.
+
+module traffic_controller (
+
+	// inputs ---------------------------------------------
+	input  logic  	    clk,        // A 1 Hz clock (1 cycle/second)
+    input  logic        resetn,
+
+    // Light control outputs.
+    // Flip-flop outputs to the power drivers to light up individual
+    // light elements
+    output logic        ns_green,   // the north-south outputs
+    output logic        ns_yellow,
+    output logic        ns_red,
+
+    output logic        ew_green,   // the east-west outputs
+    output logic        ew_yellow,
+    output logic        ew_red
+
+   );
+   
+	timeunit      	1ns;	// this one defines "how" to interptret numbers
+							//   encountered in the source.
+	timeprecision 	1ns; 	// this specifies the minimum time-step resultion
+
+
+
+
+    // typedef for state mchine
+    typedef enum logic [2:0] {
+        SAFE      = 3'h0,
+        NS_GREEN  = 3'h1,
+        NS_YELLOW = 3'h2,
+        NS_RED    = 3'h3,
+        EW_GREEN  = 3'h4,
+        EW_YELLOW = 3'h5,
+        EW_RED    = 3'h6
+    } t_cpu_state;
+
+
+
+	// ------------------------------------------------------
+	// internal declarations
+	// ------------------------------------------------------
+
+    	// flops
+    	t_cpu_state     state, next_state;
+	int unsigned counter = 15;
+
+
+
+
+	// ------------------------------------------------------
+	// sequential logic section
+	// ------------------------------------------------------
+
+	always_ff @(posedge clk or negedge resetn)
+		if(resetn == 1'b0) begin
+			state 		<=#1 SAFE;
+			counter 	<=#1 15;
+		
+		end else begin
+			state 		<=#1  next_state;
+			counter 	<=#1 counter - 1;
+		end
+	
+	always_comb begin
+			case (state) inside
+				SAFE: begin
+					if (counter == 0) begin
+						next_state     	<= NS_GREEN; 	// advance
+						
+						counter		<= 60;
+						ns_green 	<= 1;
+						ns_yellow 	<= 0;
+						ns_red 		<= 0;
+						ew_green 	<= 0;
+						ew_yellow 	<= 0;
+						ew_red 		<= 1;
+					end else begin
+						next_state     	<= state; 	// hold
+					end 
+				end 
+
+				NS_GREEN: begin
+					if (counter == 0) begin
+						next_state     	<= NS_YELLOW; 	// advance
+						
+						counter		<= 4;
+						ns_green 	<= 0;
+						ns_yellow 	<= 1;
+						ns_red 		<= 0;
+						ew_green 	<= 0;
+						ew_yellow 	<= 0;
+						ew_red 		<= 1;
+					end else begin
+						next_state     	<= state; 	// hold
+					end 
+				end 
+				default: begin
+					next_state 	<= state;
+				end
+
+			endcase
+
+end
+
+
+
+
+	// ------------------------------------------------------
+	// combinational logic section
+	// ------------------------------------------------------
+
+
+ 
+
+
+endmodule // traffic_controller
+
+

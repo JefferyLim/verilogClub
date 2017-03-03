@@ -39,7 +39,8 @@ module memory_8x32 (
 	// internal declarations
 	// ------------------------------------------------------
 
-	logic [2:0]mem[31:0];
+	logic [31:0] mem[2:0];
+	logic [2:0] old_address;
 
 
 	// ------------------------------------------------------
@@ -49,17 +50,20 @@ module memory_8x32 (
 	always_ff@(posedge clk)
 	begin
 		if(write_enable==1)
-			mem[address] <= write_data;	
-		else
-			data <= mem[address];
+			mem[address] <=#1 write_data;
+		if(write_enable==0)
+			old_address <=#1 address;
 	end
-
 
 
 	// ------------------------------------------------------
 	// combinational logic section
 	// ------------------------------------------------------
-
+	
+	always_comb
+	begin
+		read_data = mem[old_address];
+	end
 
 endmodule // memory_8x32
 
